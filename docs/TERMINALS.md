@@ -60,6 +60,31 @@ The wheel includes `share/man/man1/cells.1` under its installation prefix. View
 the source copy with `man -l docs/cells.1`; pipx does not necessarily expose its
 private environment's manual directory on your system MANPATH.
 
+## Terminal compatibility report
+
+Try the checks below in your usual terminal, then copy the checklist into a
+report. Mark unknown details or unavailable checks as such. If available, attach
+the output of [`cells --diagnostics`](#troubleshooting).
+
+```text
+OS and version:
+Python version:
+Terminal and font:
+Cells version:
+Terminal size (columns × rows):
+Commands used:
+
+- [ ] The slide starts, and q returns to a usable shell.
+- [ ] Resizing redraws the slide without leaving old characters on screen.
+- [ ] Space pauses the slide, and ? opens readable help.
+- [ ] Glyphs line up with --ascii and with --unicode always.
+- [ ] Text is readable on dark and light backgrounds (try --theme light).
+- [ ] With --interactive, arrows move the target and Enter applies the tool.
+      Try a left click if the terminal supports it.
+
+Observed results and any steps to reproduce:
+```
+
 ## Mouse and keyboard experiments
 
 `--interactive` requests left-click reports and falls back to keyboard targeting
