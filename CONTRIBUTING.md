@@ -119,6 +119,9 @@ command, seed, or a screenshot when available. Unknown details are fine; you can
 report an occasional event without reproducing it reliably. Report security
 issues using [SECURITY.md](SECURITY.md).
 
+To share a short manual test from your terminal, use the
+[terminal compatibility checklist](docs/TERMINALS.md#terminal-compatibility-report).
+
 Contributions use the project's [Zero-Clause BSD license](LICENSE) (`0BSD`).
 No copyright assignment or separate contributor license agreement is required.
 Only submit work you have the right to contribute, and identify third-party
