@@ -67,3 +67,25 @@ when the terminal does not advertise mouse support. The bottom line shows
 `? help`. Use 1–4 to select tools, arrows/hjkl to aim, Tab to select an entity,
 and Enter to apply. Mouse capture is opt-in and previous settings are restored
 on exit. See [the interaction guide](INTERACTION.md).
+
+## Installation and PATH
+
+If `pipx` or `cells` is not found after installation, check which of these two cases applies.
+
+**`pipx: command not found`**
+
+pipx itself is not installed. Install it by following the [pipx documentation](https://pipx.pypa.io/). On macOS with Homebrew, run `brew install pipx`, then check with `pipx --version`.
+
+**`pipx` works, but `cells: command not found`**
+
+pipx is installed, but its apps folder is not on your PATH yet. Run:
+
+```sh
+pipx ensurepath
+```
+
+Then open a new terminal window, or log in again. Check with `which cells`; it should print a path such as `~/.local/bin/cells`.
+
+Do not fix these errors with `sudo pip` or by changing the system Python.
+
+These steps were checked on macOS with Homebrew 7.0.14, pipx 1.18.16, and Python 3.13.
