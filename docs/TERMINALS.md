@@ -74,7 +74,7 @@ If `pipx` or `cells` is not found after installation, check which of these two c
 
 **`pipx: command not found`**
 
-pipx itself is not installed. Install it by following the [pipx documentation](https://pipx.pypa.io/). On macOS with Homebrew, run `brew install pipx`, then check with `pipx --version`.
+pipx itself is not installed. Install it by following the [pipx documentation](https://pipx.pypa.io/stable/tutorial/install-applications.html). On macOS with Homebrew, run `brew install pipx`, then check with `pipx --version`.
 
 **`pipx` works, but `cells: command not found`**
 
