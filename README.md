@@ -19,6 +19,8 @@ pipx install terminal-cells
 cells
 ```
 
+If `pipx` or `cells` is not found, see [Installation and PATH](docs/TERMINALS.md#installation-and-path).
+
 On Ubuntu 24.04 or 26.04:
 
 ```sh
@@ -86,3 +88,4 @@ start with the [first-change guide](CONTRIBUTING.md) and
 
 [Zero-Clause BSD](LICENSE) (`0BSD`): use, modify, and redistribute for any purpose,
 without an attribution requirement.
+
